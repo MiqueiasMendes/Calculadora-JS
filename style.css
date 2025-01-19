@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(5, 3, 3);
+}
+#select{
+    width: 200px;
+    outline: none;
+    height: 40px;
+    background-color: rgb(163, 4, 255);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+#num,#numdois{
+    height: 30px;
+    left: 600px;
+    position: relative;
+    top: 80px;
+    outline: none;
+}
+#send{
+    left: 1000px;
+    position: absolute;
+    top: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+#send:hover{
+    background-color: rgb(115, 8, 255);
+    color: white;
+}
